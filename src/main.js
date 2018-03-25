@@ -13,6 +13,8 @@ function yell(phrase) {
 
 yell('Ronaldo is better then Messi by far');
 yell('Im pickle rick!!!!!!!!');
+yell('Hi Layton');
+yell('Yeaeaeah Baby Yeah');
 yell('apples are better then oranges');
 yell('Layton is Bowen\'s brother!');
 yell('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
