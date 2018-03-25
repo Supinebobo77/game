@@ -9,5 +9,5 @@ function yell(phrase) {
 }
 
 yell('Ronaldo is better then Messi');
-yell('Neymar is better then cavani');
+yell('Im pickle rick!!!!!!!!');
 yell('Layton is Bowen\'s brother!');
