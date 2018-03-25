@@ -8,7 +8,8 @@ function yell(phrase) {
   speak(output);
 }
 
-yell('Ronaldo is better then Messi');
+yell('Ronaldo is better then Messi by far');
 yell('Im pickle rick!!!!!!!!');
-yell('Tomatoes are better than Apples.');
+yell('apples are better then oranges');
 yell('Layton is Bowen\'s brother!');
+yell('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
