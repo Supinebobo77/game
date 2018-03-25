@@ -2,7 +2,7 @@ var abc = 1000;
 
 function speak(phrase) {
   var output = phrase + ' for real!!!';
-  console.log(output);
+  console.log(output + '!!!!!!!!!!!!!!!!!!!!!!');
 }
 
 function yell(phrase) {
@@ -11,12 +11,16 @@ function yell(phrase) {
   speak(output);
 }
 
+/**
+ * Comments 'n stuff
+ */
 yell('Ronaldo is better then Messi by far');
 yell('Im pickle rick!!!!!!!!');
 yell('apples are better then oranges');
 yell('Layton is Bowen\'s brother!');
-yell('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
+yell('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHAhAHAHAhahhahahAHHAhahahAHhaHHHHHHH!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
 
 abc += 50;
 
 speak(abc);
+yell('bowen has a game tomorrow -');
