@@ -26,3 +26,9 @@ abc += 50;
 
 speak(abc);
 yell('bowen has a game tomorrow -');
+var abc = ['roanldo','neymar','alexis','griezmann'];
+
+for(var i = 0; i < abc.length; i++) {
+  var output = abc[i];
+  speak(output);
+}
