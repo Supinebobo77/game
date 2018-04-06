@@ -1,3 +1,4 @@
+/*
 var abc = 1000;
 
 function speak(phrase) {
@@ -11,9 +12,9 @@ function yell(phrase) {
   speak(output);
 }
 
-/**
+/!**
  * Comments 'n stuff
- */
+ *!/
 yell('Ronaldo is better then Messi by far');
 yell('Im pickle rick!!!!!!!!');
 yell('Hi Layton');
@@ -31,4 +32,26 @@ var abc = ['roanldo','neymar','alexis','griezmann'];
 for(var i = 0; i < abc.length; i++) {
   var output = abc[i];
   speak(output);
+}*/
+var output = '';
+
+var dar = ['coolio!', 'awesome', 'sick bro!', 'ahhhhhh!!!!!!', 'ouch!', 'coolio!', 'awesome', 'sick bro!', 'ahhhhhh!!!!!!', 'ouch!', 'coolio!', 'awesome', 'sick bro!', 'ahhhhhh!!!!!!', 'ouch!',];
+console.log(dar);
+
+for(var i = 0; i < dar.length; i++){
+    var item = dar[i];
+    output = output + ' ' + item;
 }
+
+console.log(output);
+
+var far = ' ';
+
+var cool = [1,2,3,4,5,6,7,8,9,10];
+console.log(cool);
+
+for(var i = 0; i < cool.length; i++){
+
+  far = far + cool(0 + 1 + 3 + 4 + 5 + 6 + 7 + 8 + 9)
+}
+console.log(far);
