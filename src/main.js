@@ -23,7 +23,12 @@ var spaceship = {
         enemies.splice(idx, 1);
         spaceship.currentTarget = null;
         console.log("KILLED AN ENEMY !!!:-)");
-        console.log('Remaining enemies:', enemies);
+        console.log('Remaining enemies:');
+        logEnemies();
+      }
+      if(!enemies.length) {
+        console.log('CONGRATULATIONS, YOU SAVED THE UNIVERSE!!!');
+        console.log('YOU WON!!!!!!!!! :D FREE BOOBS FOREVER!');
       }
     }
   },
@@ -56,12 +61,18 @@ for (var i = 0; i < 5; i++){
 
 }
 
+function logEnemies() {
+  for (var i = 0; i < enemies.length; i++) {
+    console.log(enemies[i].letters.join(','));
+  }
+}
 
 
 
 function main(){
   window.addEventListener('keydown',spaceship.fire);
-  console.log('Incoming Enemise!!!', enemies);
+  console.log('Incoming Enemise!!!');
+  logEnemies();
 }
 main();
 
