@@ -1,7 +1,40 @@
 var spaceship = {
+  currentTarget: null,
+
   fire: function (evt) {
-    if(evt.key === "a") {
-      console.log(evt.key);
+    var letter = evt.key;
+    if(!spaceship.currentTarget) {
+     spaceship.currentTarget = spaceship.acquireTarget(letter);
+    }
+
+    if (spaceship.currentTarget){
+
+      var enemy = spaceship.currentTarget;
+      if (letter === enemy.letters[0]) {
+        enemy.letters.shift();
+        console.log("HIT!", enemy.letters.join(', '));
+
+      }
+      else{
+        console.log("miss :(");
+      }
+      if (!enemy.letters.length){
+        var idx = enemies.indexOf(enemy);
+        enemies.splice(idx, 1);
+        spaceship.currentTarget = null;
+        console.log("KILLED AN ENEMY !!!:-)");
+        console.log('Remaining enemies:', enemies);
+      }
+    }
+  },
+
+  acquireTarget: function (key){
+    for (var i = 0; i < enemies.length; i++){
+      var enemy = enemies[i];
+      if (key === enemy.letters[0]){
+        console.log("TARGET ACQUIRED",enemy);
+        return enemy;
+      }
     }
   }
 };
@@ -28,6 +61,7 @@ for (var i = 0; i < 5; i++){
 
 function main(){
   window.addEventListener('keydown',spaceship.fire);
+  console.log('Incoming Enemise!!!', enemies);
 }
 main();
 
