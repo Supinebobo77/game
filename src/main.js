@@ -28,7 +28,7 @@ var spaceship = {
       }
       if(!enemies.length) {
         console.log('CONGRATULATIONS, YOU SAVED THE UNIVERSE!!!');
-        console.log('YOU WON!!!!!!!!! :D FREE BOOBS FOREVER!');
+        console.log('YOU WON!!!!!!!!! :D FREE food FOREVER!');
       }
     }
   },
