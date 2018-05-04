@@ -3,8 +3,6 @@ function addBanana(value) {
   return value + ' banana';
 }
 
-
-
 for (var i = 0; i < 10; i++){
   console.log(addBanana(i + 1));
 }

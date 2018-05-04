@@ -1,0 +1,45 @@
+body {
+  background: #6ad;
+  margin: 0;
+}
+
+.enemy {
+  background: url('../image/kracken.png') no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.one {
+  left: 15%;
+  top: 50px;
+}
+
+.two {
+  left:40%;
+  top: 40px;
+}
+
+.three {
+  left: 60%;
+  top: 40px;
+}
+
+.four {
+  left: 85%;
+  top: 50px;
+}
+
+#player {
+  position: absolute;
+  background: #f90;
+  color: #fff;
+  padding: 10px;
+  background: url('../image/player.png') no-repeat;
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  left: 50%;
+}
