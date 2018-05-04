@@ -1,6 +1,10 @@
 // Write challenge examples in this file :)
-function f(a) {
-  return a + ' banana';
+function addBanana(value) {
+  return value + ' banana';
 }
 
-console.log(f('cool'));
+
+
+for (var i = 0; i < 10; i++){
+  console.log(addBanana(i + 1));
+}
