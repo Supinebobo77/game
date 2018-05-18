@@ -11,25 +11,7 @@ body {
   position: absolute;
 }
 
-.one {
-  left: 15%;
-  top: 50px;
-}
 
-.two {
-  left:40%;
-  top: 40px;
-}
-
-.three {
-  left: 60%;
-  top: 40px;
-}
-
-.four {
-  left: 85%;
-  top: 50px;
-}
 
 #player {
   position: absolute;
@@ -42,4 +24,28 @@ body {
   height: 60px;
   bottom: 30px;
   left: 50%;
+}
+
+.row-one {
+  top: 50px;
+}
+
+.row-two {
+  top: 120px;
+}
+
+.row-three {
+  top: 200px;
+}
+
+.column-one {
+  left: 15%;
+}
+
+.column-two {
+  left: 50%;
+}
+
+.column-three {
+  left: 85%;
 }
